@@ -5,14 +5,18 @@ int void (){
   String corFruta = "Verde e Amarela"
   String sabor = "Doce e cítrica";
   int diasDesdecolheita = 20;
-  bool isMadura;
+  bool isMadura = funcEstaMadura(dias);
   
-  if (diasDesdeColheita >= 30){
-    isMadura = true; 
-    
+  print(isMadura);
+}
+
+  bool funcEstaMadura(int dias){
+  if (dias >= 30){
+    return = true; 
   }else{
-   isMadura = false; 
+   return = false; 
     
   }
-  
-}
+
+
+  }
