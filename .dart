@@ -7,8 +7,15 @@ int void (){
   int diasDesdecolheita = 20;
   bool isMadura = funcEstaMadura(dias);
   
-  print(isMadura);
-}
+  List <dynamic> = [nome, peso, corFruta, sabor, diasDesdecolheita, isMadura];
+
+  String frase = ('A $[0]')
+
+  print (frase);
+  
+  }
+  
+  
 
   bool funcEstaMadura(int dias){
   if (dias >= 30){
